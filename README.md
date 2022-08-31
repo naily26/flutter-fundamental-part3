@@ -1,16 +1,20 @@
 # pertemuan_18
 
-A new Flutter project.
 
-## Getting Started
+## Praktikum 1: Menerapkan Gesture Detector
 
-This project is a starting point for a Flutter application.
+### Langkah 1: Buat Project Baru
+### Langkah 2: Menambahkan GestureDetector
+![screenshoot pertemuan_18](images/praktikum_1_2.png)
+Pada langkah ini, kita menerapkan penggunaan gesture detector berupa onTap yang berisi metod incrementCounter yang sudah dibuat sebelumnya.
 
-A few resources to get you started if this is your first Flutter project:
+### Langkah 3: Eksperimen Jenis Gesture Lain
+#### 1. onDoubleTap
+![screenshoot pertemuan_18](images/praktikum_1_4_1.png)
+Saat menggunakan onDoubleTap, tampilan angka akan bertambah sesuai method incremet ketika user tap 2 kali pada bagian center.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### 2. onLongpress
+![screenshoot pertemuan_18](images/praktikum_1_4_2.png)
+Saat menggunakan onLongpress, tampilan angka akan bertambah sesuai method incremet ketika user menekan bagian center dan menahan beberapa detik.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
