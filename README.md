@@ -1,5 +1,6 @@
 # pertemuan_18
 
+Nama: Naily Ikmalul Insiyah
 
 ## Praktikum 1: Menerapkan Gesture Detector
 
