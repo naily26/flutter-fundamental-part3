@@ -22,10 +22,10 @@ Saat menggunakan onLongpress, tampilan angka akan bertambah sesuai method increm
 ### Hasil 
 Berikut output dari praktikum 2:
 ![screenshoot pertemuan_18](images/praktikum_2.png)
-Pada praktikum ini kita menerapkan penggunaan textformfield yang mempunyai validasi input berupa string dan tidak boleh null. Selain itu juga meneapkan penggunaan controller yang di dalamnya memiliki default value untuk textformfield tersebut.
+Pada praktikum ini kita menerapkan penggunaan textformfield yang mempunyai validasi input berupa string dan tidak boleh null. ketika input sesuai maka bisa dilihat pada debug console variabel valid bernilai true. Selain itu, juga meneapkan penggunaan controller yang di dalamnya memiliki default value untuk textformfield tersebut.
 
 ## Praktikum 3: Menerapkan Custom Input dan FormField Widget
 ### Hasil 
 Berikut output dari praktikum 3:
 ![screenshoot pertemuan_18](images/praktikum_3.png)
-Pada praktikum ini menerapkan penggunaan custom input dan FormFieldwidget. Custom input berupa request number, sehingga pada form tersebut user tidak dapat menginputkan karakter lain selain angka seperti hutuf dan simbol lainnya.
+Pada praktikum ini menerapkan penggunaan custom input dan FormFieldwidget. Custom input berupa request number, sehingga pada form tersebut user tidak dapat menginputkan karakter lain selain angka seperti hutuf dan simbol lainnya. ketika input sesuai maka bisa dilihat pada debug console variabel valid bernilai true.
