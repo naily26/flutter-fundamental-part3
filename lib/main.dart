@@ -51,35 +51,35 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: GestureDetector(
-          onLongPress: _incrementCounter,
+          onDoubleTap: _incrementCounter,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              const Text('You have pushed the button this many times: '),
+              const MyImageWidget(),
               Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
             //const FormContoh(),
-            Form(
-                  child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                            VerificationCodeFormField(controller: _controller),
-                            Builder(
-                              builder: (BuildContext subContext) => ElevatedButton(
-                                onPressed: () {
-                                  final valid = Form.of(subContext)?.validate();
-                                      if (kDebugMode) {
-                                        print("valid: $valid");
-                                      }
-                                    },
-                                child: const Text("validate"),
-                              ),
-                            )
-                        ],
-                      ),
-              ),
+            // Form(
+            //       child: Column(
+            //       mainAxisSize: MainAxisSize.min,
+            //       children: <Widget>[
+            //                 VerificationCodeFormField(controller: _controller),
+            //                 Builder(
+            //                   builder: (BuildContext subContext) => ElevatedButton(
+            //                     onPressed: () {
+            //                       final valid = Form.of(subContext)?.validate();
+            //                           if (kDebugMode) {
+            //                             print("valid: $valid");
+            //                           }
+            //                         },
+            //                     child: const Text("validate"),
+            //                   ),
+            //                 )
+            //             ],
+            //           ),
+            //   ),
             ],
           ),
         )
