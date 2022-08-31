@@ -19,11 +19,13 @@ Saat menggunakan onLongpress, tampilan angka akan bertambah sesuai method increm
 
 
 ## Praktikum 2: Menerapkan Input Widget dan Forms
-### Langkah 1: Buat class FormContoh
-### Langkah 2: Buat class _FormContohState
-### Langkah 3: Tambah Widget FormContoh di main.dart
+### Hasil 
 Berikut output dari praktikum 2:
 ![screenshoot pertemuan_18](images/praktikum_2.png)
 Pada praktikum ini kita menerapkan penggunaan textformfield yang mempunyai validasi input berupa string dan tidak boleh null. Selain itu juga meneapkan penggunaan controller yang di dalamnya memiliki default value untuk textformfield tersebut.
 
-
+## Praktikum 3: Menerapkan Custom Input dan FormField Widget
+### Hasil 
+Berikut output dari praktikum 3:
+![screenshoot pertemuan_18](images/praktikum_3.png)
+Pada praktikum ini menerapkan penggunaan custom input dan FormFieldwidget. Custom input berupa request number, sehingga pada form tersebut user tidak dapat menginputkan karakter lain selain angka seperti hutuf dan simbol lainnya.
